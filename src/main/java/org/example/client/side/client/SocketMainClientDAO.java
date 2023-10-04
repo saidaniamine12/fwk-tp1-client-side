@@ -8,6 +8,8 @@ import java.io.*;
 import java.net.*;
 
 public class SocketMainClientDAO implements MainClientDAO {
+
+
     private Socket socket;
     private ObjectInputStream objectInputStream;
     private ObjectOutputStream objectOutputStream;

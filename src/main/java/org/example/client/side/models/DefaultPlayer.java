@@ -4,7 +4,7 @@ import java.util.Map;
 
 public class DefaultPlayer {
 
-    private Long id;
+    private Integer id;
     private String name;
 
     private Map<String,String> properties;
@@ -12,7 +12,7 @@ public class DefaultPlayer {
     public DefaultPlayer() {
     }
 
-    public DefaultPlayer(Long id, String name, Map<String, String> properties) {
+    public DefaultPlayer(Integer id, String name, Map<String, String> properties) {
         this.id = id;
         this.name = name;
         this.properties = properties;
@@ -20,7 +20,7 @@ public class DefaultPlayer {
 
     // Getters and setters
 
-    public Long getId() {
+    public Integer getId() {
         return id;
     }
 

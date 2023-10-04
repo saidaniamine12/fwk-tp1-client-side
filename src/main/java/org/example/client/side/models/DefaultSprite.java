@@ -3,7 +3,7 @@ package org.example.client.side.models;
 import java.util.Map;
 
 public class DefaultSprite {
-    private Long id;
+    private Integer id;
 
     private String kind;
     private String name;
@@ -12,14 +12,14 @@ public class DefaultSprite {
 
     private String direction;
 
-    private Long playerId;
+    private Integer playerId;
 
     private Map<String,String> map;
 
     public DefaultSprite() {
     }
 
-    public DefaultSprite(Long id, String kind, String name, String location, String direction, Long playerId, Map<String, String> map) {
+    public DefaultSprite(Integer id, String kind, String name, String location, String direction, Integer playerId, Map<String, String> map) {
         this.id = id;
         this.kind = kind;
         this.name = name;
@@ -29,11 +29,11 @@ public class DefaultSprite {
         this.map = map;
     }
 
-    public Long getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 
@@ -69,11 +69,11 @@ public class DefaultSprite {
         this.direction = direction;
     }
 
-    public Long getPlayerId() {
+    public Integer getPlayerId() {
         return playerId;
     }
 
-    public void setPlayerId(Long playerId) {
+    public void setPlayerId(Integer playerId) {
         this.playerId = playerId;
     }
 
