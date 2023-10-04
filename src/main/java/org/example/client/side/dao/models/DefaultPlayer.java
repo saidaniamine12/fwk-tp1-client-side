@@ -1,4 +1,4 @@
-package org.example.models;
+package org.example.client.side.dao.models;
 
 import java.util.Map;
 

@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.example</groupId>
-  <artifactId>fwk-tp1</artifactId>
+  <artifactId>fwk-tp1-socket-bomberman-client-side</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 

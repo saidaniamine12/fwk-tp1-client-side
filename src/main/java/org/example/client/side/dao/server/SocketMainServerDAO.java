@@ -1,4 +1,4 @@
-package org.example.dao.server;
+package org.example.client.side.dao.server;
 
 import java.io.DataInputStream;
 import java.io.IOException;

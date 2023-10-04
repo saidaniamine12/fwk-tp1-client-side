@@ -1,8 +1,8 @@
-package org.example.dao.client;
+package org.example.client.side.dao.client;
 
-import org.example.models.SocketType;
-import org.example.models.StartGameInfo;
-import org.example.services.StartGameInfoReader;
+import org.example.client.side.dao.models.SocketType;
+import org.example.client.side.dao.models.StartGameInfo;
+import org.example.client.side.dao.services.StartGameInfoReader;
 
 import java.io.*;
 import java.net.*;
@@ -102,6 +102,7 @@ public class SocketMainClientDAO implements MainClientDAO {
 
     @Override
     public void sendMoveLeft(String message) {
+        //TODO
 
     }
 

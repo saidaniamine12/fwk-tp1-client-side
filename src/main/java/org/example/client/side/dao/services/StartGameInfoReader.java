@@ -1,8 +1,8 @@
-package org.example.services;
+package org.example.client.side.dao.services;
 
-import org.example.models.DefaultPlayer;
-import org.example.models.DefaultSprite;
-import org.example.models.StartGameInfo;
+import org.example.client.side.dao.models.DefaultPlayer;
+import org.example.client.side.dao.models.DefaultSprite;
+import org.example.client.side.dao.models.StartGameInfo;
 
 import java.io.IOException;
 import java.io.ObjectInputStream;
