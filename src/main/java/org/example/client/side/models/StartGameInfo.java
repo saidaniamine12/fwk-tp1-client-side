@@ -1,4 +1,4 @@
-package org.example.client.side.dao.models;
+package org.example.client.side.models;
 
 import java.io.Serializable;
 import java.util.List;

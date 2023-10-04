@@ -1,8 +1,8 @@
-package org.example.client.side.dao.client;
+package org.example.client.side.client;
 
-import org.example.client.side.dao.models.SocketType;
-import org.example.client.side.dao.models.StartGameInfo;
-import org.example.client.side.dao.services.StartGameInfoReader;
+import org.example.client.side.models.SocketType;
+import org.example.client.side.models.StartGameInfo;
+import org.example.client.side.services.StartGameInfoReader;
 
 import java.io.*;
 import java.net.*;

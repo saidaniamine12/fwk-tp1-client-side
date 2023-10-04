@@ -1,7 +1,7 @@
-package org.example.client.side.dao.client;
+package org.example.client.side.client;
 
-import org.example.client.side.dao.models.SocketType;
-import org.example.client.side.dao.models.StartGameInfo;
+import org.example.client.side.models.SocketType;
+import org.example.client.side.models.StartGameInfo;
 
 public interface MainClientDAO {
 

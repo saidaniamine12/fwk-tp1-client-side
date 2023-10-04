@@ -1,4 +1,4 @@
-package org.example.client.side.dao.models;
+package org.example.client.side.models;
 
 public class Player extends DefaultPlayer{
 
