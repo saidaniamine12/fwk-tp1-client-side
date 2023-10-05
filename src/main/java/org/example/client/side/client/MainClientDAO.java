@@ -1,7 +1,9 @@
 package org.example.client.side.client;
 
-import org.example.client.side.models.SocketType;
+import org.example.client.side.models.enums.SocketType;
 import org.example.client.side.models.StartGameInfo;
+
+import java.io.IOException;
 
 public interface MainClientDAO {
 
@@ -14,7 +16,7 @@ public interface MainClientDAO {
     StartGameInfo connect(SocketType socketType);
 
     // send MoveLEFT to server
-    void sendMoveLeft(String message);
+    void sendMoveLeft() throws IOException;
 
     //connection close
     void close();

@@ -1,4 +1,4 @@
-package org.example.client.side.models;
+package org.example.client.side.models.enums;
 
 public enum SocketType {
     TCP,

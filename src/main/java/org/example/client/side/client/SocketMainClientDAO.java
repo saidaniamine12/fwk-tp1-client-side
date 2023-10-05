@@ -1,6 +1,7 @@
 package org.example.client.side.client;
 
-import org.example.client.side.models.SocketType;
+import org.example.client.side.models.enums.ProtocolConstants;
+import org.example.client.side.models.enums.SocketType;
 import org.example.client.side.models.StartGameInfo;
 import org.example.client.side.services.StartGameInfoReader;
 
@@ -103,9 +104,10 @@ public class SocketMainClientDAO implements MainClientDAO {
     }
 
     @Override
-    public void sendMoveLeft(String message) {
-        //TODO
-
+    public void sendMoveLeft() throws IOException {
+        ProtocolConstants left = ProtocolConstants.LEFT;
+        this.objectOutputStream.write(left.getValue());
+        this.objectOutputStream.flush();
     }
 
 
