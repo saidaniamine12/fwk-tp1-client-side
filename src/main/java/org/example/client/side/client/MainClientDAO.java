@@ -20,4 +20,6 @@ public interface MainClientDAO {
 
     //connection close
     void close();
+
+    void open();
 }
